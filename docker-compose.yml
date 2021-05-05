@@ -4,7 +4,7 @@ services:
   # database
   db:
     image: mysql:5.7
-    container_name: mysql_host
+    container_name: java_mysql_host
     environment:
       MYSQL_ROOT_PASSWORD: root
       TZ: 'Asia/Tokyo'
@@ -20,7 +20,7 @@ services:
     image: phpmyadmin/phpmyadmin
     environment:
     - PMA_ARBITRARY=1
-    - PMA_HOSTS=mysql_host
+    - PMA_HOSTS=java_mysql_host
     - PMA_USER=root
     - PMA_PASSWORD=root
     ports:
