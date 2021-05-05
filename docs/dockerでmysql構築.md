@@ -17,12 +17,12 @@
 
 ### コンテナの作成&起動
 ```
-$ docker-compose up --buid -d
+$ docker-compose up --build -d
 ```
 
 ### コンテナの停止
 ```
-$ docker-compose up --buid -d
+$ docker-compose stop
 ```
 
 ### コンテナの起動
