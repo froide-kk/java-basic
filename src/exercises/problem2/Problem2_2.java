@@ -18,11 +18,24 @@ public class Problem2_2 {
         System.out.println("c = " + c);
         System.out.println("d = " + d);
         System.out.println("e = " + e);
+//        実行結果
+//        a = 3
+//        b = 1
+//        c = 9
+//        d = 2
+//        e = 1
+
 //        Question
         System.out.println(a + 2);
         System.out.println(b - 1);
         System.out.println(c * 3);
         System.out.println(d / 2);
         System.out.println(e % 2);
+//        実行結果
+//        a = 3
+//        b = 1
+//        c = 9
+//        d = 2
+//        e = 1
     }
 }
