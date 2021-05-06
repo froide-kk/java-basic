@@ -19,6 +19,9 @@ public class Problem2_5 {
         System.out.println("ohayo１:" + ohayo1);
         System.out.println("temp: " + temp);
 
+        String temp_kon = temp.replace("おはよう", "");
+        System.out.println("おはようを一気にreplace: " + temp_kon);
+
 
         // ex_tempを「おはよう」と「こんばんわ」に分割
         for(int i = 0; i < target.length; i++){
@@ -26,6 +29,7 @@ public class Problem2_5 {
             ohayo2 += ex_temp.charAt(target_index);
             ex_temp = ex_temp.replaceFirst(target[i],"");
         }
+
         System.out.println("ohayo2: " + ohayo2);
         System.out.println("ex_temp: " + ex_temp);
 
