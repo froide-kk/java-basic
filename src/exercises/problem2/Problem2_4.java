@@ -8,5 +8,10 @@ public class Problem2_4 {
         System.out.println(middle);
 //        実行結果
 //        天気ですね
+
+//        Challenge
+        System.out.println(temp.substring(temp.length() -5));
+//        実行結果
+//        天気ですね
     }
 }
