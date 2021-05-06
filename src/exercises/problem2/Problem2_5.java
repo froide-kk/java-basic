@@ -8,6 +8,7 @@ public class Problem2_5 {
         String evening = temp.substring(0,5);
         String morning = temp.substring(5);
         // ex_tempを「おはよう」と「こんばんわ」に分割
+        
 
         System.out.println(morning);
         System.out.println(evening);
