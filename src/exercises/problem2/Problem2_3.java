@@ -5,6 +5,9 @@ public class Problem2_3 {
         int x = 3;
         int y = 7;
         // ここでxとyの値を入れ替える
+        int dummy = x;
+        x = y;
+        y = dummy;
         System.out.println( "x=" + x + ",y=" + y );
     }
 }
