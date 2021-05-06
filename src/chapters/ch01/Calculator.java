@@ -5,7 +5,7 @@ public class Calculator {
 		/* 計算をする */
 		int a = 4;
 		int b = 5;
-		int c = a * b; // cは3になる
+		int c = a * b; // cは20になる
 		/* 計算した結果を表示する */
 		System.out.println("4 × 5 = " + c);
 	}
