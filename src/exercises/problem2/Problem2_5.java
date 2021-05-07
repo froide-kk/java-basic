@@ -12,15 +12,24 @@ public class Problem2_5 {
 
         // ex_tempを「おはよう」と「こんばんわ」に分割
         String[] list = ex_temp.split("");
-        list.toString();
-
         for (int i = 0; i <ex_temp.length() ; i++) {
-            System.out.println(list[i] == "お");
+            if (Problem2_5.morningWord(list[i])){
+                morning_ex_temp += list[i];
+            } else {
+                afternoon_ex_temp += list[i];
+            }
         }
         System.out.println(morning_temp);
         System.out.println(afternoon_temp);
         System.out.println(morning_ex_temp);
         System.out.println(afternoon_ex_temp);
+    }
 
+    static boolean morningWord (String value) {
+        if (value.equals("お") || value.equals("は") || value.equals("よ") || value.equals("う")) {
+            return true;
+        }else {
+            return false;
+        }
     }
 }
