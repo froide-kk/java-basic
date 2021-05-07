@@ -17,3 +17,4 @@ public class Problem2_5 {
         System.out.println(konbanwa);
     }
 }
+

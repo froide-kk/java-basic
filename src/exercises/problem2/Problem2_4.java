@@ -6,5 +6,7 @@ public class Problem2_4 {
         // 最後の5文字を取得
         String hello = temp.substring(11);
         System.out.println(hello);
+
+        System.out.println(temp.substring(temp.length() -5));
     }
 }
