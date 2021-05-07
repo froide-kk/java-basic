@@ -16,6 +16,8 @@ public class Problem2_5 {
         String a = "こんばんわ";
         String b = "おはよう";
 
+        System.out.println("------challenge------");
+
 
         String[] c = new String[5];
         c = a.split("");
@@ -26,12 +28,26 @@ public class Problem2_5 {
         String[] e = new String[9];
         e = ex_temp.split("");
 
-        String num;
 
-        for(int i=0;i<ex_temp.length();i++){
-            for(int j=0;j<a.length();j++){
-                if(e[j] c[i]){
+        //こんばんわ抜き出し
+        for(int i=0;i<a.length();i++){
+            for(int j=0;j<ex_temp.length();j++){
+                if(e[j].equals(c[i])){
                     System.out.print(e[j]);
+                    break;
+                }
+            }
+        }
+
+        //改行
+        System.out.println();
+
+        //おはよう抜き出し
+        for(int i=0;i<b.length();i++){
+            for(int j=0;j<ex_temp.length();j++){
+                if(e[j].equals(d[i])){
+                    System.out.print(e[j]);
+                    break;
                 }
             }
         }
