@@ -5,13 +5,14 @@ import static java.lang.System.*;
 
 public class Problem5_5 {
 	public static void main(String[] args){
-		int[] arr = new int[5];
+		Random rand = new Random();
+		int list_size = rand.nextInt(10)+1 ;
+		int[] arr = new int[list_size];
 		int over_zero = 0;
 		int under_zero = 0;
 		int zero = 0;
 
 		for(int i = 0; i < arr.length; i++){
-			Random rand = new Random();
 			int num = rand.nextInt(11) ;
 			int sign = rand.nextInt(2) ;
 			num = (sign == 0) ? -num : num;

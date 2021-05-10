@@ -8,7 +8,7 @@ public class Problem4_7 {
 			int kuku = 0;
 			for(int j = 1; j <= 9; j++){
 				kuku = i*j;
-				out.printf("%d  ", kuku);
+				out.printf("%3d ", kuku);
 			}
 			out.println("");
 		}
