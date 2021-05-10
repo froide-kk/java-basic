@@ -7,5 +7,7 @@ public class Problem7_1 {
         Calc c = new Calc();
         System.out.println(a + " + " + b + " = " + c.add(a, b));
         System.out.println(a + " - " + b + " = " + c.sub(a, b));
+        System.out.println(a + " × " + b + " = " + c.mul(a, b));
+        System.out.println(a + " ÷ " + b + " = " + c.div(a, b));
     }
 }
