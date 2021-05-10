@@ -18,9 +18,7 @@ public class Dog {
     public void setAge( int age ) { this.age = age; }
 
     public void showProfile() {
-        System.out.println( "名前は、" + this.name + "です。" );
-        System.out.println( "年齢は、" + this.age + "歳です。" );
-        System.out.println( "犬種は、" + this.breed + "です。" );
+        System.out.println( "名前は、" + this.name + "年齢は、" + this.age + "歳" + "犬種は、" + this.breed + "です。" );
 
 
     }
