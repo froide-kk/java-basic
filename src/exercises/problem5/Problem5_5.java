@@ -14,8 +14,8 @@ public class Problem5_5 {
 			num[i] = rand.nextInt(20) - 10;
 			System.out.print(num[i] + " ");
 		}
-		System.out.println();
-		System.out.println();
+		System.out.println("\n");
+
 		for(int j = 0; j < num.length; j++){
 			if(num[j] > 0){
 				big += 1;
