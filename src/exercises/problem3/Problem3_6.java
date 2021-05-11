@@ -5,7 +5,7 @@ import java.util.Random;
 public class Problem3_6 {
     public static void main(String[] args){
         Random rand = new Random();
-        int num = rand.nextInt(10);
+        int num = rand.nextInt(11);
         System.out.println(num);
         if (num % 2 == 0) {
             System.out.println("偶数");

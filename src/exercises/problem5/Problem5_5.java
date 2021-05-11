@@ -13,7 +13,7 @@ public class Problem5_5 {
 		int zero = 0;
 
 		for (int i = 0; i < randomNumber.length; i++) {
-			int num = rand.nextInt(20) -10;
+			int num = rand.nextInt(21) -10;
 			//配列に代入
 			randomNumber[i] = num;
 			//文字列を作成

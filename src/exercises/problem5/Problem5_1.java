@@ -10,7 +10,7 @@ public class Problem5_1 {
 		String tmp = "";
 
 		for (int i = 0; i < arr.length; i++) {
-			int num = rand.nextInt(10);
+			int num = rand.nextInt(11);
 			arr[i] = num;
 			System.out.println(arr[i]);
 

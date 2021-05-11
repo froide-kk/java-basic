@@ -5,7 +5,7 @@ import java.util.Random;
 public class Problem3_9 {
     public static void main(String[] args){
         Random rand = new Random();
-        int num = rand.nextInt(100);
+        int num = rand.nextInt(101);
         System.out.println(num);
         if (num % 6 == 0){
             System.out.println("2と3の公倍数です。");

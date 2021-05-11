@@ -7,7 +7,7 @@ public class Problem4_5 {
 		Random rand = new Random();
 		double result = 0;
 		for (int i = 0; i < 10; i++) {
-			int num = rand.nextInt(10);
+			int num = rand.nextInt(11);
 			System.out.println(num);
 			result += num;
 		}

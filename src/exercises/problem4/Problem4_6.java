@@ -8,7 +8,7 @@ public class Problem4_6 {
 		int max = 0;
 		int min = 10;
 		for (int i = 0; i < 10; i++) {
-			int num = rand.nextInt(10);
+			int num = rand.nextInt(11);
 			System.out.println(num);
 			if (max < num){
 				max = num;

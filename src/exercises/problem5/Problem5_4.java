@@ -14,7 +14,7 @@ public class Problem5_4 {
 
 		String result = "";
 		for (int i = 0; i < randomNumber.length; i++) {
-			int num = rand.nextInt(10);
+			int num = rand.nextInt(11);
 			//配列に代入
 			randomNumber[i] = num;
 

@@ -5,7 +5,7 @@ import java.util.Random;
 public class Problem3_7 {
     public static void main(String[] args){
         Random rand = new Random();
-        int num = rand.nextInt(20) - 10;
+        int num = rand.nextInt(21) - 10;
         System.out.println(num);
         if (num > 0){
             //正の整数

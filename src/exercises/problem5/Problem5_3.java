@@ -12,7 +12,7 @@ public class Problem5_3 {
 		String even = "偶数 :";
 
 		for (int i = 0; i < data.length; i++) {
-			int num = rand.nextInt(100);
+			int num = rand.nextInt(101);
 			if (num%2 == 0) {
 				even += " "+num;
 			}else{
