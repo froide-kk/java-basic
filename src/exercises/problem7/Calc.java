@@ -10,4 +10,14 @@ public class Calc {
     double sub(double a, double b) {
         return a - b;
     }
+
+    //　積算
+    double mul(double a, double b) {
+        return a * b;
+    }
+
+    //　商算
+    double div(double a, double b) {
+        return a / b;
+    }
 }
