@@ -28,8 +28,12 @@ public class Problem6_3 {
         }
 
         for(int f = 0; f < 10; f++){
-            System.out.printf("1の位が%dのもの",f);
-            System.out.println(first[f]);
+            System.out.printf("1の位が%dのもの: ",f);
+            if (first[f]=="") {
+                System.out.println("なし");
+            }else{
+                System.out.println(first[f]);
+            }
         }
     }
 }
