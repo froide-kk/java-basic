@@ -21,20 +21,17 @@ public class Problem6_4 {
 
             str_list.add(str);
         }
-
-        for(int i = 0; i < str_list.size();){
-            if (str_list.get(i).length() >= 5){
-                out.println(str_list.get(i));
-                str_list.remove(i);
-            }else{
-                i += 1;
+        out.printf("5文字未満の単語: ");
+        for(int i = 0; i < str_list.size();i++){
+            if (str_list.get(i).length() < 5){
+                out.printf("%s ", str_list.get(i));
             }
         }
-
+/*
         out.printf("5文字未満の単語: ");
         for(String str: str_list){
             out.printf("%s ", str);
-        }
+        }*/
 
 
 
