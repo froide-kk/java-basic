@@ -13,17 +13,41 @@ public class Problem10_2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<Integer> arr = new ArrayList<Integer>();
 
-        int i = 1;
-        while (i < 3) {
-            System.out.println("自然数(" + i + "つ目)を指定：");
-            String str = br.readLine();
-            int num = Integer.parseInt(str);
-            System.out.println(num);
-            i++;
-            arr.add(num);
+        for(int j = 0; j < 100; j++) {
+            int i = 1;
+            try {
+                while (i < 3) {
+                    System.out.println("自然数(" + i + "つ目)を指定：");
+                    String str = br.readLine();
+                    int num = Integer.parseInt(str);
+                    System.out.println(num);
+                    i++;
+                    arr.add(num);
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("自然数を指定して下さい");
+            }
         }
+        System.out.println(arr);
 
-        System.out.println(arr);t
+    }
+
+
+//        while (i < 3) {
+//            System.out.println("自然数(" + i + "つ目)を指定：");
+//            String str = br.readLine();
+//            int num = Integer.parseInt(str);
+//            try {
+//                System.out.println(num);
+//                i++;
+//                arr.add(num);
+//            } catch (NumberFormatException e) {
+//                System.out.println("自然数を指定して下さい");
+//            }
+//        }
+
+//        System.out.println(arr);
 //        二つ入力した後で数値の判定
 
 
@@ -36,5 +60,5 @@ public class Problem10_2 {
 //        c % d = e;
 //        e = 0になった時のd
 
-    }
+
 }
