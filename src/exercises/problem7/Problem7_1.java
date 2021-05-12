@@ -7,5 +7,12 @@ public class Problem7_1 {
         Calc c = new Calc();
         System.out.println(a + " + " + b + " = " + c.add(a, b));
         System.out.println(a + " - " + b + " = " + c.sub(a, b));
+        System.out.println(a + " * " + b + " = " + c.mul(a, b));
+        System.out.println(a + " / " + b + " = " + c.div(a, b));
     }
 }
+//実行結果
+//4.0 + 2.0 = 6.0
+//4.0 - 2.0 = 2.0
+//4.0 * 2.0 = 8.0
+//4.0 / 2.0 = 2.0
